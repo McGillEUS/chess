@@ -5,6 +5,7 @@ html,body {
   width: 100%;
   font-family: 'Poppins', sans-serif;
   color: #222;
+       
 }
 /*
 .responsive{
@@ -36,7 +37,7 @@ font-size: 0.9em !important;
 .carousel-caption h1{
   font-size: 500%;
   text-transform: uppercase;
-  text-shadow: 1px 1px 15px #000;
+  text-shadow: 10px 1px 5px #000;
 
 }
 
@@ -48,9 +49,9 @@ font-size: 0.9em !important;
 }
 
 .btn-primary {
-
   background-color: #d42e12;
   border: 1px solid #aa250d;
+    color: aliceblue
   }
 
 .jumbotron {
@@ -105,6 +106,7 @@ color: #3b5998
 color: #ff0000
 }
 .fa-instagram{
+/*
 display: inline-block;
 width: 150px;
 height: 100px;
@@ -117,6 +119,7 @@ vertical-align: middle;
 background: #d6249f;
 background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
 box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+ */  
 }
 .fa-facebook:hover{
 color:#d5d5d5
@@ -166,6 +169,9 @@ margin-bottom: 1rem
     }
     .display-4{
       font-size: 200%;
+        padding-bottom: .2rem;
+        
+        
     }
     .social a{
       font-size: 2em;
@@ -268,6 +274,17 @@ color: #d42e12 !important;
 
 .list{
   padding-top: 5%;
+}
+
+
+mark { 
+  background-color: #4C4B52;
+  color: white;
+}
+
+highlighted {
+    background-color: rgb(76,75,82);
+    background-color: rgba(76,75,82,.7);
 }
 /*--- Bootstrap Padding Fix --*/
 
